@@ -2,9 +2,7 @@ public class Tarea{
 
     private string? nombre, descripcion;
     private TipoTarea tipo;
-
     private Boolean priority;
-
     private int idTarea;
 
     public Tarea (){
@@ -27,15 +25,20 @@ public class Tarea{
     public void MostrarTarea(){
       Console.WriteLine("Nombre de la tarea: "+ nombre);
       Console.WriteLine("Descripcion: "+ descripcion);
-      Console.WriteLine("Tipo de tarea "+ tipo);
+      Console.WriteLine("Tipo de tarea: "+ tipo);
       Console.WriteLine("Identidficador de tarea: "+ idTarea);
       Console.WriteLine("Prioridad: "+ priority);
       
     }
 
-
-   
-   
+    private string ConvertidorDePrioridad(){
+      string conv;
+      if (priority){
+        return "+";
+      }else{
+        return "-";
+      }
+    }
 
     public string? GetNombre(){
       return this.nombre;

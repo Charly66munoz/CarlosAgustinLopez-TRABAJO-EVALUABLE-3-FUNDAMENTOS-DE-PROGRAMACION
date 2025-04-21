@@ -4,7 +4,8 @@ public class Program{
 
     public static void Main(string[]args){
         App h = new App();
-        h.Menu();
+        MenuController menu = new MenuController(h);
+        menu.MostrarMenu();
         
 
 

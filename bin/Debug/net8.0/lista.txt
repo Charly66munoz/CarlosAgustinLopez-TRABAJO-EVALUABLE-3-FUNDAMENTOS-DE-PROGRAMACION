@@ -1,6 +1,0 @@
-5898,a,a,Persona,False
-7257,a,a,Persona,False
-8979,a,a,Ocio,False
-1953,a,a,Trabajo,True
-7574,a,a,Trabajo,True
-7165,a,a,Ocio,True
