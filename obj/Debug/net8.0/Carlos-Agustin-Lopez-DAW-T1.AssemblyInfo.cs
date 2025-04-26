@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Carlos-Agustin-Lopez-DAW-T1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e61d200297c87cb281386ecbba1c53f6702605d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83bcf0d346cb0622a59b066dcc8c5dcb92761da2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Carlos-Agustin-Lopez-DAW-T1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Carlos-Agustin-Lopez-DAW-T1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
